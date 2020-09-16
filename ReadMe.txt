@@ -1,4 +1,5 @@
 Read Me file for Paper-Scissors-Rock
+By: Thomas Cooper - I.C.Stars C47
 
 What is this:
 This is a simple text/terminal based rock-paper-scissors game. 
