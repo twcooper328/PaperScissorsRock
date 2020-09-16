@@ -365,34 +365,15 @@ def battle_screen (money, num, int, string):
 
 
 #The rock paper scissors are text files. They are loaded here.
-#with open('rock.txt', 'r') as r:
-    #rock = r.read()
-
-#with open('paper.txt', 'r') as p:
-    #paper = p.read()
-
-#with open('scissor.txt', 'r') as s:
-    #scissor = s.read()
 '''
 folder = os.path.dirname(os.path.abspath(__file__))
-paper = os.path.join(folder, 'paper.txt')
+paper_path = os.path.join(folder, 'paper.txt')
 
 folder = os.path.dirname(os.path.abspath(__file__))
-rock = os.path.join(folder, 'rock.txt')
+rock_path = os.path.join(folder, 'rock.txt')
 
 folder = os.path.dirname(os.path.abspath(__file__))
-scissor = os.path.join(folder, 'scissors.txt')
-
-
-
-scissor_i = open(scissor_f, "r")
-scissor = scissor_i.read()
-
-rock_i = open(rock_f, "r")
-rock = rock_i.read()
-
-paper_i = open(paper_f, "r")
-paper = paper_i.read()
+scissor_path = os.path.join(folder, 'scissors.txt')
 '''
 
 with open('rock.txt', 'r') as f:
